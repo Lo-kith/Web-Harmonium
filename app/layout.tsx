@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+    metadataBase: new URL("http://localhost:3000"),
   title: "Web Harmonium – Modern UI Component Library by Lokith",
   description:
     "Harmonium is an open-source, accessible, and modern UI component library built with Tailwind CSS and designed for React and Next.js. Fast, elegant, and easy to use. developed by Lokith.",
@@ -36,6 +37,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Lokith", }],
   creator: "Lokith",
   openGraph: {
+    
     title: "Web Harmonium – Modern UI Component Library by Lokith",
     description:
       "Harmonium is a fast, modern, and accessible component library for Next.js, built with Tailwind CSS by Lokith.",
