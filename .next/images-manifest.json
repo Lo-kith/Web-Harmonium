@@ -45,7 +45,7 @@
     "qualities": [
       75
     ],
-    "unoptimized": true,
+    "unoptimized": false,
     "customCacheHandler": false,
     "sizes": [
       640,

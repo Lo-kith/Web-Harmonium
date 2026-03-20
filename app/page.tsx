@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useRef, useCallback } from "react"
+import { useState, useEffect, useRef, useCallback, SetStateAction } from "react"
 import {
   FaVolumeHigh,
   FaBookOpen,
@@ -988,7 +988,7 @@ export default function WebHarmonium() {
                 </div>
                 <Slider
                   value={[volume]}
-                  onValueChange={(value) => setVolume(value[0])}
+                  onValueChange={(value: SetStateAction<number>[]) => setVolume(value[0])}
                   max={100}
                   min={1}
                   step={1}

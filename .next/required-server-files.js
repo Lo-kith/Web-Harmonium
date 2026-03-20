@@ -67,7 +67,7 @@ self.__SERVER_FILES_MANIFEST={
       "qualities": [
         75
       ],
-      "unoptimized": true,
+      "unoptimized": false,
       "customCacheHandler": false
     },
     "devIndicators": {
